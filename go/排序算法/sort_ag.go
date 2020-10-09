@@ -22,14 +22,6 @@ func InsertionSort(arr []int) []int {
 				i--
 			}
 		}
-
-		// for j := 0; j < len(arr); j++ {
-
-		// 	if arr[j] > arr[j+1] {
-		// 		// 这里只交换了一次
-		// 		arr[j+1], arr[j] = arr[j], arr[j+1]
-		// 	}
-		// }
 	}
 	return arr
 }
